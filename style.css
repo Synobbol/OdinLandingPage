@@ -5,6 +5,7 @@ body{
 }
 header, footer{
     background-color: #1F2937;
+    padding:16px;
 }
 /********************HEADER***************/
 .header{
@@ -48,6 +49,7 @@ p{
 
 .left{
  max-width: 27%;
+ color: #e5e7eb;
 }
 .left button{
     padding:5px 20px;
@@ -94,4 +96,67 @@ p{
     border: 5px solid #3882f6;
     border-radius: 5px;
     padding:80px 50px;
+}
+.content-2{
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding:48px;
+}
+.content-2 figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.content-2 figcaption{
+    font-weight: bold;
+}
+blockquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width:50%;
+}
+figure figcaption{
+    margin-left: 500px;
+}
+/*********************FOOTER****************************/
+
+h3{
+    margin:0;
+    font-weight: bold;
+}
+.footer{
+    padding: 150px;
+    color:#f9faf8;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+}
+.bottom button{
+    border: 3px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 16px;
+}
+footer img{
+    width:18px;
 }
