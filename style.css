@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header, footer{
+    background-color: #1F2937;
+}
+/********************HEADER***************/
+.header{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    display: flex;
+    gap:18px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:#f9faf8;
+    margin: 0;  
+}
+p{
+    margin:0;
+}
+
+.left{
+ max-width: 27%;
+}
+.left button{
+    padding:5px 20px;
+    color:#f9faf8;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    margin:10px 0;
+    font-weight: bold;
+}
+.title figure{
+    background-color: #e5e7eb;
+    max-width:25%;
+    margin:0px;
+    width:250px;
+}
+
+.title img{
+    width: 100%;
+}
+
+/*******************CONTENT****************************/
+
+.content-1{
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color:#1F2937;
+    padding:48px;
+}
+.content-1 h2{
+    width:100%;
+    text-align: center;
+    font-size: 36px;
+}
+.figcaption{
+    width:20%;
+    gap:16px;
+    text-align: center;
+}
+.figcaption figure{
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    padding:80px 50px;
+}
